@@ -1,0 +1,6 @@
+<app-view [parentView]="isView" #view></app-view>
+
+<p>
+    <a href="#" (click)="$event.preventDefault(); onEdit()" class="btn btn-primary my-2">Update User</a>
+    <a href="#" (click)="$event.preventDefault(); onCancel()" class="btn btn-secondary my-2">Cancel</a>
+</p>

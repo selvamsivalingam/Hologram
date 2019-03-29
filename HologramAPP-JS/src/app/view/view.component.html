@@ -1,0 +1,90 @@
+<fieldset [disabled]="isView" class="col-md-8 order-md-1">
+  <h4 class="mb-3">User Details</h4><a [routerLink]="['/home']" routerLinkActive="active" class="float-right">back</a>
+  <form class="needs-validation" novalidate="" [formGroup]="form">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <label for="firstName">First name</label>
+        <input type="text" class="form-control" formControlName="firstname" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+          Valid first name is required.
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="lastName">Last name</label>
+        <input type="text" class="form-control" formControlName="lastname" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+          Valid last name is required.
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="username">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" class="form-control" formControlName="username" placeholder="Username" required="">
+        <div class="invalid-feedback" style="width: 100%;">
+          Username is required.
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!isView" class="mb-3">
+      <label for="username">Password</label>
+      <input type="password" class="form-control" formControlName="password" placeholder="" value="" required="">
+      <div class="invalid-feedback">
+        Password is required.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="email">Email <span class="text-muted">(Optional)</span></label>
+      <input type="email" class="form-control" formControlName="email" placeholder="you@example.com">
+      <div class="invalid-feedback">
+        Please enter a valid email address for shipping updates.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="role">Role</label>
+      <select class="custom-select d-block w-100" formControlName="role" required="">
+          <option>User</option>
+          <option>Admin</option>
+        </select>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 mb-3">
+        <label for="country">Country</label>
+        <select class="custom-select d-block w-100" formControlName="country" required="">
+          <option value="">Choose...</option>
+          <option>United States</option>
+          <option>Canada</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid country.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="state">Province</label>
+        <select class="custom-select d-block w-100" formControlName="province" required="">
+          <option value="">Choose...</option>
+          <option>California</option>
+          <option>Ontario</option>
+        </select>
+        <div class="invalid-feedback">
+          Please provide a valid province.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="zip">Zip</label>
+        <input type="text" class="form-control" formControlName="zip" placeholder="" required="">
+        <div class="invalid-feedback">
+          Zip code required.
+        </div>
+      </div>
+    </div>
+  </form>
+</fieldset>
