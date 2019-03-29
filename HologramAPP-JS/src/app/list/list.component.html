@@ -1,0 +1,29 @@
+<main role="main">
+  <div class="album py-5 bg-light">
+    <div class="container">
+        <a href="#" (click)="$event.preventDefault();" [routerLink]="['add']" routerLinkActive="active" class="float-right btn btn-primary my-2">Add User</a>
+
+      <div class="row">
+
+        <div *ngFor="let user of users$ | async" class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="data:image/png;base64,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" alt="" />
+            <div class="card-body">
+              <p class="card-text">User Name: {{user.firstname}} {{user.lastname}}</p>
+              <p class="card-text">Country: {{user.country}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" (click)="onView(user.id)" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" (click)="onEdit(user.id)" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <!-- <small class="text-muted">{{user.lastActive}} mins</small> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</main>
