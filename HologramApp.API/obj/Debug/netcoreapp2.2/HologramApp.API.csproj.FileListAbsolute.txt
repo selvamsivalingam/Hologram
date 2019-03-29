@@ -1,0 +1,14 @@
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/bin/Debug/netcoreapp2.2/HologramApp.API.deps.json
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/bin/Debug/netcoreapp2.2/HologramApp.API.runtimeconfig.json
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/bin/Debug/netcoreapp2.2/HologramApp.API.runtimeconfig.dev.json
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/bin/Debug/netcoreapp2.2/HologramApp.API.dll
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/bin/Debug/netcoreapp2.2/HologramApp.API.pdb
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.csprojAssemblyReference.cache
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.csproj.CoreCompileInputs.cache
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.RazorAssemblyInfo.cache
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.RazorAssemblyInfo.cs
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.AssemblyInfoInputs.cache
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.AssemblyInfo.cs
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.RazorTargetAssemblyInfo.cache
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.dll
+/Users/selvambalasivalingam/Documents/Workouts/RBC/HologramApp/HologramApp.API/obj/Debug/netcoreapp2.2/HologramApp.API.pdb
